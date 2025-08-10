@@ -1,0 +1,10 @@
+USE master;
+CREATE DATABASE Datawarehouse;
+USE Datawarehouse;
+
+CREATE SCEMA  bronze;
+GO
+CREATE SCEMA silver;
+GO
+CREATE SCEMA gold;
+GO
